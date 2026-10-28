@@ -1,4 +1,6 @@
-![NixOS](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd6cdtlL2wKrjwhAnz4ldS9cVUHcGmXxho7DSxLLvu9w&s=10)
+<p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd6cdtlL2wKrjwhAnz4ldS9cVUHcGmXxho7DSxLLvu9w&s=10" alt="NixOS" width="400">
+</p>
 
 
 # NixOs

@@ -14,9 +14,11 @@
 
 
   
-    boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.grub = {
     enable = true;
+    useOSProber = true;
+    timeout = 10;
     efiSupport = true;
     device = "nodev";
     theme = pkgs.stdenv.mkDerivation {
@@ -57,8 +59,6 @@
     	  "https://mirrors.cernet.edu.cn/nix-channels/store"
    	  "https://nix-community.cachix.org"
     	  "https://cache.garnix.io"
-
-
 	];
 
 	trusted-public-keys = [
@@ -77,9 +77,8 @@
   # Set your time zone.
   time.timeZone = "Europe/Saratov";
 
-  # Select internationalisation properties.
+  # Select internationalisation properties. Any mirrors.
   i18n.defaultLocale = "en_US.UTF-8";
-
   i18n.extraLocaleSettings = {
     LC_ADDRESS = "ru_RU.UTF-8";
     LC_IDENTIFICATION = "ru_RU.UTF-8";
@@ -172,10 +171,10 @@
   # List packages installed in system profile.
   #  You can use https://search.nixos.org/ to find more packages (and options).
   environment.systemPackages = with pkgs; [
-     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-     wget
-     fastfetch
-     git
+    vim 
+    wget
+    fastfetch
+    git
     gcc
     gnumake
     nodejs
@@ -189,6 +188,7 @@
     tree
     lazygit
     zsh-powerlevel10k
+    docker
    ];
 
    

@@ -4,18 +4,19 @@ This is a usual config for starting using NixOS.
 All files of config NixOS are located in etc/nixos/.
 
 
-> [!IMPORTANT] Main step
+> [!IMPORTANT] 
+> Main step
 >
 > If you downloaded the OS via the installer, then open termninal and execute a few commands:
 
 
 
-``` Bash
+```bash
 
 mkdir -p nix_ready_config
 
 nix shell nixpkgs#git -c bash -c '
-git clone https://github.com/Intrepiduss8080/nixos.git nix_ready_config/ '
+git clone https://github.com/Intrepiduss8080/nixos.git nix_ready_config/'
 
 
 rm -f nix_ready_config/hardware-configuration.nix 
@@ -37,7 +38,7 @@ So, my config contains nvim, git, vim, jetbrains fonts, zsh, docker and many oth
 
 
 > [!WARNING] Wait, please... :>
-> ## Hardware-configuration.nix
+> ** Hardware-configuration.nix **
 >
->This file is unique to each PC's. Dont copy this file, this step could break you system. 
->
+>This file is unique to each PC's. Dont copy this file, this step could break you system. You just need know this, you don't need to do anything there. 
+

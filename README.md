@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NixOS/nixos-artwork/97444e18b7fe97705e8caedd29ae05e62cb5d4b7/wallpapers/nixos-wallpaper-catppuccin-macchiato.png" alt="NixOS" width="1000">
+</p>
+
+
 # NixOs
 
 This is a usual config for starting using NixOS.

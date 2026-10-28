@@ -1,3 +1,6 @@
+![NixOS](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd6cdtlL2wKrjwhAnz4ldS9cVUHcGmXxho7DSxLLvu9w&s=10)
+
+
 # NixOs
 
 This is a usual config for starting using NixOS.

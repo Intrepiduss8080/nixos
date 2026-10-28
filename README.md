@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd6cdtlL2wKrjwhAnz4ldS9cVUHcGmXxho7DSxLLvu9w&s=10" alt="NixOS" width="1000">
+  <img src="https://raw.githubusercontent.com/NixOS/nixos-artwork/97444e18b7fe97705e8caedd29ae05e62cb5d4b7/wallpapers/nixos-wallpaper-catppuccin-macchiato.png" alt="NixOS" width="1000">
 </p>
 
 

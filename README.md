@@ -1,14 +1,43 @@
-# nixos
+# NixOs
 
 This is a usual config for starting using NixOS.
-
-## Hardware-configuration.nix
-
-This file is unique to each PC's.
+All files of config NixOS are located in etc/nixos/.
 
 
-### What's inside.
+> [!IMPORTANT] Main step
+>
+> If you downloaded the OS via the installer, then open termninal and execute a few commands:
 
-In this repo i add a some programms for IT-people or someone, who just want try this distros. 
+
+
+``` Bash
+
+mkdir -p nix_ready_config
+
+nix shell nixpkgs#git -c bash -c '
+git clone https://github.com/Intrepiduss8080/nixos.git nix_ready_config/ '
+
+
+rm -f nix_ready_config/hardware-configuration.nix 
+
+sudo cp -r /etc/nixos /etc/nixos.bak
+
+sudo cp -r nix_ready_config/. /etc/nixos/
+
+sudo nixos-rebuild switch
+
+```
+
+
+## What's inside.
+
+In this repo I add a some programms for IT-people or someone, who just want try this distros. 
 
 So, my config contains nvim, git, vim, jetbrains fonts, zsh, docker and many other casual programs + sway and + cinnamon.
+
+
+> [!WARNING] Wait, please... :>
+> ## Hardware-configuration.nix
+>
+>This file is unique to each PC's. Dont copy this file, this step could break you system. 
+>

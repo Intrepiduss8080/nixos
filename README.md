@@ -37,8 +37,8 @@ In this repo I add a some programms for IT-people or someone, who just want try 
 So, my config contains nvim, git, vim, jetbrains fonts, zsh, docker and many other casual programs + sway and + cinnamon.
 
 
-> [!WARNING] Wait, please... :>
-> ** Hardware-configuration.nix **
+> [!WARNING] 
+>  Hardware-configuration.nix 
 >
 >This file is unique to each PC's. Dont copy this file, this step could break you system. You just need know this, you don't need to do anything there. 
 

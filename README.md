@@ -3,7 +3,7 @@
 </p>
 
 
-# NixOs
+# nixos-config
 
 This is a usual config for starting using NixOS.
 All files of config NixOS are located in etc/nixos/.

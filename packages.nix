@@ -22,8 +22,11 @@
     postgresql
     docker
   ];
+    
+    virtualisation.docker.enable = true;
 
 
+    services.postgresql.enable = true;
 
     nixpkgs.config.allowUnfree = true;
 

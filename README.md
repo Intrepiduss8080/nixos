@@ -19,6 +19,7 @@ All files of config NixOS are located in etc/nixos/.
 ![NixOS install](assets/NixosInstall.png)
 
 
+https://nixos.org/download/
 
 
 ```bash

@@ -17,7 +17,7 @@ All files of config NixOS are located in etc/nixos/.
 [NixOs Install](/home/opensor/Pictures/NixosInstall.png)
 
 
-[Graphical installer](https://nixos.org/download/)
+![NixOS install](assets/NixosInstall.png)
 
 
 
